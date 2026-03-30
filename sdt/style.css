@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: #1e293b;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #22c55e;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+.expired {
+    background-color: #dc2626; /* red */
+    color: white;
+}
+
+.expiring {
+    background-color: #f97316; /* orange */
+    color: white;
+}
+
+.fresh {
+    background-color: #16a34a; /* green */
+    color: white;
+}
+
+.deleteBtn {
+    padding: 5px 10px;
+    background-color: #ef4444;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.deleteBtn:hover {
+    background-color: #b91c1c;
+}
